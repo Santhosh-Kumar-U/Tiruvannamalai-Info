@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff6b00">
+    <meta name="description" content="A spiritual guide to Tiruvannamalai, featuring temples, girivalam, places to visit, and essential services.">
+    <title>Divine Tiruvannamalai | Spiritual Capital of the World</title>
+    <link rel="icon" href="images/1st.jpeg" type="image/jpeg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home" class="logo">Tiruvannamalai</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#girivalam">Girivalam</a>
+            <a href="#places">Sacred Places</a>
+            <a href="#booking">Room Booking</a>
+            <a href="#essentials">Essentials & Help</a>
+            <a href="#visit">Plan Visit</a>
+        </div>
+        <button id="install-btn" style="display: none; background: var(--gradient-primary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 20px; cursor: pointer; margin-left: 1rem;">
+            <i class="fa-solid fa-download"></i> Install App
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 class="reveal">Welcome to Tiruvannamalai</h1>
+        <p class="reveal">Discover the eternal peace of Arunachala and the grandeur of the temple city.</p>
+        <a href="https://forms.gle/igZLShkEgLtNapM98" class="btn-primary reveal">OUR SERVICE</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-rich" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <span class="subtitle reveal-left">The Eternal Fire</span>
+                <h2 class="reveal-left">History & Spiritual Significance</h2>
+                <p>Tiruvannamalai is one of the most ancient and sacred sites in India. It represents the <strong>Agni
+                        (Fire)</strong> element among the five primordial elements (Pancha Bhoota Stalams) of Lord
+                    Shiva.</p>
+                <p>The word 'Arunachala' is derived from 'Aruna' (red/fire) and 'Achala' (hill). According to legend,
+                    Lord Shiva once appeared here as a column of fire that had no beginning or end, to quell the ego of
+                    Brahma and Vishnu.</p>
+
+                <div class="about-stats reveal">
+                    <div class="stat-item">
+                        <span class="stat-number">2000+</span>
+                        <span class="stat-label">Years of History</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">14km</span>
+                        <span class="stat-label">Girivalam Path</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">25</span>
+                        <span class="stat-label">Acres of Temple</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="image-stack">
+                    <img src="images/1st.jpeg" alt="Indian Heritage" class="img-1">
+                    <img src="images/2nd.jpeg" alt="Raja Gopuram (Temple Entrance)" class="img-2">
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-grid about-extra">
+            <div class="feature-item reveal-left">
+                <i class="fa-solid fa-mountain-sun feature-icon"></i>
+                <h3>Arunachala Hill</h3>
+                <p>Considered a living manifestation of Lord Shiva, the hill is believed to grant liberation to those
+                    who merely think of it.</p>
+            </div>
+            <div class="feature-item reveal">
+                <i class="fa-solid fa-gopuram feature-icon"></i>
+                <h3>Ancient Heritage</h3>
+                <p>The Arunachaleswarar temple is one of the largest in the world, with inscriptions dating back to the
+                    9th-century Chola era.</p>
+            </div>
+            <div class="feature-item reveal-right">
+                <i class="fa-solid fa-om feature-icon"></i>
+                <h3>Global Seeker Hub</h3>
+                <p>Renowned as a center for self-inquiry, it was the home of Sri Ramana Maharshi, drawing seekers from
+                    every corner of the planet.</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Places Grid -->
+    <section class="section" id="places">
+        <div class="section-header">
+            <h2>Famous Places to Visit</h2>
+            <p>Experience the divine energy at these sacred landmarks. Click on cards to discover their history.</p>
+        </div>
+
+        <div class="places-grid">
+            <!-- Place 1: Arunachaleswarar Temple -->
+            <div class="place-card" id="arunachaleswarar-temple" onclick="this.classList.toggle('flipped')" data-lat="12.2316" data-lng="79.0672">
+                <div class="flip-card-inner">
+                    <!-- Front -->
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="https://utsav.gov.in/public/uploads/event_cover_image/event_811/16613276392058299375.jpg"
+                                alt="Arunachaleswarar Temple">
+                        </div>
+                        <div class="card-content">
+                            <h3>Arunachaleswarar Temple <span class="distance-badge"></span></h3>
+                            <p>One of the largest temples in Tamil Nadu, dedicated to Lord Shiva as the element of Fire.
+                                The
+                                architecture is a marvel of Dravidian style.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Back -->
+                    <div class="flip-card-back">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Arunachaleswarar+Temple+Tiruvannamalai"
+                            target="_blank" class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-location-dot"></i> View on Maps
+                        </a>
+                        <span class="history-tag">History & Significance</span>
+                        <h3>Divine Architecture</h3>
+                        <p>Dating back to the 9th century (Chola Dynasty), this temple complex spans over 25 acres. It
+                            represents <strong>Agni (Fire)</strong>, one of the five elements.</p>
+                        <p>Legend says Lord Shiva appeared here as an infinite column of fire (Lingodbhava) to quell the
+                            pride of Brahma and Vishnu. The temple has four massive gopurams (towers), with the Eastern
+                            tower (Raja Gopuram) standing at 217 feet, one of the tallest in India.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 2: Sri Ramana Ashram -->
+            <div class="place-card" id="sri-ramana-ashram" onclick="this.classList.toggle('flipped')" data-lat="12.2239" data-lng="79.0570">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="images/ramana_ashram.png" alt="Sri Ramana Ashram">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sri Ramana Ashram <span class="distance-badge"></span></h3>
+                            <p>The sanctuary where the sage Ramana Maharshi lived. A place of deep silence and
+                                meditation at the
+                                foot of the hill.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Sri+Ramana+Ashram+Tiruvannamalai"
+                            target="_blank" class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-location-dot"></i> View on Maps
+                        </a>
+                        <span class="history-tag">Spiritual Hub</span>
+                        <h3>Home of the Sage</h3>
+                        <p>Established in 1922 around the Samadhi of Ramana Maharshi's mother. The sage himself lived
+                            here until his Mahasamadhi in 1950.</p>
+                        <p>It remains a global center for those practicing <strong>Self-Enquiry (Atma Vichara)</strong>.
+                            The ashram retains the vibrating silence of the Master, offering a powerful environment for
+                            meditation. Peacocks roaming freely are a signature sight.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 3: Virupaksha Cave -->
+            <div class="place-card" id="virupaksha-cave" onclick="this.classList.toggle('flipped')" data-lat="12.2334" data-lng="79.0618">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="https://www.dagadevelopers.com/media/blog/full/2024/7/66841b917d699_1719933841.jpg"
+                                alt="Virupaksha Cave">
+                        </div>
+                        <div class="card-content">
+                            <h3>Virupaksha Cave <span class="distance-badge"></span></h3>
+                            <p>A small cave on the eastern slope of Arunachala where Ramana Maharshi meditated for 17
+                                years. It
+                                has a powerful spiritual aura.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Virupaksha+Cave+Tiruvannamalai"
+                            target="_blank" class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-location-dot"></i> View on Maps
+                        </a>
+                        <span class="history-tag">Ancient Cave</span>
+                        <h3>The 'Om' Shape</h3>
+                        <p>This cave is naturally shaped like the sacred symbol 'Om'. It is named after the 13th-century
+                            saint Virupaksha Deva.</p>
+                        <p>Sri Ramana Maharshi stayed here from 1899 to 1916. It is said that the intense spiritual heat
+                            of his inquiry was so strong here. It remains one of the most powerful meditation spots on
+                            the Holy Hill.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 4: Girivalam Path -->
+            <div class="place-card" id="girivalam-path" onclick="this.classList.toggle('flipped')" data-lat="12.2316" data-lng="79.0672">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifCjt3dtJfqD8vsIPkKXjjuGOHn6d55e6l0U1vKUJWmtTiZ_dBGr1hhip1BinYutRAGq4nie31wqZPtsTfGvcpNyOqO8KX5ZXb7rZTXWG9bh7UUskiDcjqrW7ev_0uQVIrPPtMGg/s640/Girivalam+2009.jpg"
+                                alt="Girivalam Path">
+                        </div>
+                        <div class="card-content">
+                            <h3>Girivalam Path <span class="distance-badge"></span></h3>
+                            <p>The 14km circumambulation route around the holy hill. Millions walk this path on full
+                                moon nights
+                                to seek blessings.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="#girivalam" class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-circle-info"></i> Go to Section
+                        </a>
+                        <span class="history-tag">Sacred Walk</span>
+                        <h3>Giri Pradakshina</h3>
+                        <p>Walking around the hill clockwise is considered equivalent to circling Lord Shiva himself.
+                            The path is dotted with 8 Cardinal Lingams (Ashta Lingams) and numerous shrines.</p>
+                        <p><strong>Significance:</strong> It dissolves karma and fulfills righteous desires.
+                            Traditionally done barefoot. The full moon (Pournami) sees lacs of devotees, but the walk is
+                            sacred on any day.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Place 5: Skandashram -->
+            <div class="place-card" id="skandashramam" onclick="this.classList.toggle('flipped')" data-lat="12.2336" data-lng="79.0609">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="images/skandsasram.png" alt="Skandashram">
+                        </div>
+                        <div class="card-content">
+                            <h3>Skandashramam <span class="distance-badge"></span></h3>
+                            <p>Another cave hermitage slightly higher than Virupaksha, offering a panoramic view of the
+                                great
+                                temple and the city.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Skandashramam+Tiruvannamalai"
+                            target="_blank" class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-location-dot"></i> View on Maps
+                        </a>
+                        <span class="history-tag">Mountain Retreat</span>
+                        <h3>Scenic Hermitage</h3>
+                        <p>Ramana Maharshi moved here from Virupaksha Cave in 1916 and stayed until 1922. His mother
+                            joined him here, and her liberation (Mukti) occurred in this very spot.</p>
+                        <p>It offers a breathtaking view of the Arunachaleswarar Temple towers. The atmosphere is
+                            exceptionally cool with a perennial mountain spring nearby.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Place 6: Sathanur Dam -->
+            <div class="place-card" id="sathanur-dam" onclick="this.classList.toggle('flipped')" data-lat="12.1864" data-lng="78.8517">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Sathanur_Dam_Park_Area.jpg"
+                                alt="Sathanur Dam">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sathanur Dam <span class="distance-badge"></span></h3>
+                            <p>A major dam built across the Thenpennai River, featuring a beautiful park and a crocodile
+                                farm. A great picnic spot.</p>
+                            <span class="map-link">
+                                <i class="fa-solid fa-rotate"></i> Click to see History
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Sathanur+Dam" target="_blank"
+                            class="map-link" onclick="event.stopPropagation()">
+                            <i class="fa-solid fa-location-dot"></i> View on Maps
+                        </a>
+                        <span class="history-tag">Nature & Leisure</span>
+                        <h3>Engineering Marvel</h3>
+                        <p>Constructed in 1958, this is one of Tamil Nadu's major dams. The surrounding park is often
+                            used as a film shooting location for its scenic gardens and statues.</p>
+                        <p>It houses a large Crocodile Bank and a fish grotto. Best visited during the post-monsoon
+                            months when water levels are high.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Girivalam Path Experience -->
+    <section class="section girivalam-experience" id="girivalam">
+        <div class="section-header">
+            <span class="subtitle reveal">The Sacred Circumambulation</span>
+            <h2 class="reveal">Giri Valam: The Divine Path</h2>
+            <p>A 14km spiritual journey around the holy Arunachala Hill, visiting the eight cardinal Lingams and sacred
+                caves.</p>
+        </div>
+
+        <div class="girivalam-path-container">
+            <div class="path-main-card reveal">
+                <div class="path-visual">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifCjt3dtJfqD8vsIPkKXjjuGOHn6d55e6l0U1vKUJWmtTiZ_dBGr1hhip1BinYutRAGq4nie31wqZPtsTfGvcpNyOqO8KX5ZXb7rZTXWG9bh7UUskiDcjqrW7ev_0uQVIrPPtMGg/s640/Girivalam+2009.jpg"
+                        alt="Arunachala Hill">
+                    <div class="hill-overlay">
+                        <h3>Girivalam Path</h3>
+                        <p>The sacred hill itself, considered Lord Shiva as Fire (Agni), the focus of the entire walk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lingams-grid" id="girivalam-lingams">
+                <!-- Starting Point ->
+                <div class="lingam-item start">
+                    <div class="lingam-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="lingam-text">
+                        <h4>Arunachaleswarar Temple</h4>
+                        <p>Starting point for the walk (Giri Valam).</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Arunachaleswarar+Temple+Tiruvannamalai"
+                            target="_blank" class="map-link">
+                            <i class="fa-solid fa-location-dot"></i> View Direction
+                        </a>
+                    </div>
+                </div>  -->
+
+                <!-- 1. Indra Lingam -->
+                <div class="lingam-item" id="indra-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.22928"
+                    data-lng="79.07030">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">East</div>
+                            <div class="lingam-icon"><img src="images/lingams/indra.png" alt="Indra Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Indra Lingam <span class="distance-badge"></span></h4>
+                                <p>The first lingam on the path, representing the East direction.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Indra+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Indra</h4>
+                                <p><strong>Significance:</strong> Indra, the King of Devas, worshipped Shiva here to be
+                                    absolved of his sins. It marks the beginning of the spiritual journey.</p>
+                                <p><strong>Benefits:</strong> Grants prosperity, long life, and power. Removes obstacles
+                                    in career and governance.</p>
+                                <p><strong>Zodiac/Planet:</strong> Taurus (Rishabam) & Libra (Thulam) / Sun & Venus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Agni Lingam -->
+                <div class="lingam-item" id="agni-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.22416"
+                    data-lng="79.05907">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">South-East</div>
+                            <div class="lingam-icon"><img src="images/lingams/agni.png" alt="Agni Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Agni Lingam <span class="distance-badge"></span></h4>
+                                <p>Located in the South-East direction, representing the element of Fire.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Agni+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Agni</h4>
+                                <p><strong>Significance:</strong> Stands for light, energy, and transformation. It is
+                                    the only lingam situated on the right side of the Girivalam path.</p>
+                                <p><strong>Benefits:</strong> Relief from diseases, mental stress, and fear. Bestows
+                                    good health and strong will.</p>
+                                <p><strong>Zodiac/Planet:</strong> Leo (Simham) / Moon (Chandra).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Yama Lingam -->
+                <div class="lingam-item" id="yama-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.22185"
+                    data-lng="79.05052">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">South</div>
+                            <div class="lingam-icon"><img src="images/lingams/yama.png" alt="Yama Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Yama Lingam <span class="distance-badge"></span></h4>
+                                <p>The South direction lingam, associated with the Lord of Death.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Yama+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Yama</h4>
+                                <p><strong>Significance:</strong> Yama, the God of Justice and Death, worshipped here.
+                                    The holy tank 'Simha Theertham' is nearby.</p>
+                                <p><strong>Benefits:</strong> Removes fear of death and financial debts. Grants
+                                    longevity and justice.</p>
+                                <p><strong>Zodiac/Planet:</strong> Scorpio (Viruchigam) / Mars (Sevvai).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Niruthi Lingam -->
+                <div class="lingam-item" id="niruthi-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.22388"
+                    data-lng="79.04361">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">South-West</div>
+                            <div class="lingam-icon"><img src="images/lingams/niruthi.png" alt="Niruthi Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Niruthi Lingam <span class="distance-badge"></span></h4>
+                                <p>South-West direction, worshipped for protection.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Niruthi+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Niruthi (Asura King)</h4>
+                                <p><strong>Significance:</strong> Legend says the King of Giants (Niruthi) worshipped
+                                    Shiva here. It protects from negative forces.</p>
+                                <p><strong>Benefits:</strong> Child blessing for couples, protection from evil eye and
+                                    black magic.</p>
+                                <p><strong>Zodiac/Planet:</strong> Aries (Mesham) / Rahu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ner Annamalai -->
+                <div class="spot-card" id="chandra-lingam-spot" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="spot-icon"><img src="images/sacred/chandra.png" alt="Chandra Lingam"></div>
+                            <h3>Ner Annamalai</h3>
+                            <p>For mental peace and emotional balance.</p>
+                            <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for Details</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Chandra+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h3>Deity: Lord Chandra (Moon)</h3>
+                                <p><strong>Significance:</strong> Dedicated to the Moon God. It helps cool the mind.</p>
+                                <p><strong>Benefits:</strong> Mental peace, emotional balance, relief from stress and
+                                    depression.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Surya Lingam -->
+                <div class="spot-card" id="surya-lingam-spot" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="spot-icon"><img src="images/sacred/surya.png" alt="Surya Lingam"></div>
+                            <h4>Surya Lingam</h4>
+                            <p>For health and clarity, worshipped at sunrise.</p>
+                            <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for Details</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Surya+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Surya (Sun)</h4>
+                                <p><strong>Significance:</strong> Dedicated to the Sun God. Worshipping here brings the
+                                    energy of the Sun.</p>
+                                <p><strong>Benefits:</strong> Good health, eyesight, vitality, authority, and removal of
+                                    skin ailments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Varuna Lingam -->
+                <div class="lingam-item" id="varuna-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.24939"
+                    data-lng="79.03472">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">West</div>
+                            <div class="lingam-icon"><img src="images/lingams/varuna.png" alt="Varuna Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Varuna Lingam <span class="distance-badge"></span></h4>
+                                <p>West direction, representing the element of Water.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Varuna+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Varuna</h4>
+                                <p><strong>Significance:</strong> Varuna, the God of Rain, created a holy tank (Varuna
+                                    Theertham) here. He clears sins related to water.</p>
+                                <p><strong>Benefits:</strong> Success in career/social life, protection from
+                                    water-related ailments (dropsy).</p>
+                                <p><strong>Zodiac/Planet:</strong> Capricorn (Makaram) & Aquarius (Kumbam) / Saturn
+                                    (Shani).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Vayu Lingam -->
+                <div class="lingam-item" id="vayu-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.25750"
+                    data-lng="79.04722">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">North-West</div>
+                            <div class="lingam-icon"><img src="images/lingams/vayu.png" alt="Vayu Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Vayu Lingam <span class="distance-badge"></span></h4>
+                                <p>North-West direction, representing the element of Air.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Vayu+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Vayu</h4>
+                                <p><strong>Significance:</strong> Vayu, the God of Wind, provides the vital breath. This
+                                    spot is known for a constant breeze.</p>
+                                <p><strong>Benefits:</strong> Relief from heart/lung diseases, stomach issues, and
+                                    stress. Peace of mind.</p>
+                                <p><strong>Zodiac/Planet:</strong> Cancer (Kadagam) / Ketu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chandra Lingam -->
+                <div class="spot-card" id="chandra-lingam-spot" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="spot-icon"><img src="images/sacred/chandra.png" alt="Chandra Lingam"></div>
+                            <h4>Chandra Lingam</h4>
+                            <p>For mental peace and emotional balance.</p>
+                            <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for Details</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Chandra+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Chandra (Moon)</h4>
+                                <p><strong>Significance:</strong> Dedicated to the Moon God. It helps cool the mind.</p>
+                                <p><strong>Benefits:</strong> Mental peace, emotional balance, relief from stress and
+                                    depression.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Kubera Lingam -->
+                <div class="lingam-item" id="kubera-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.25538"
+                    data-lng="79.06105">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">North</div>
+                            <div class="lingam-icon"><img src="images/lingams/kubera.png" alt="Kubera Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Kubera Lingam <span class="distance-badge"></span></h4>
+                                <p>North direction, associated with wealth and prosperity.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Kubera+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Kubera</h4>
+                                <p><strong>Significance:</strong> Kubera, the Lord of Wealth, worshipped Shiva here. It
+                                    is one of the most popular lingams.</p>
+                                <p><strong>Benefits:</strong> Abundant wealth, prosperity, and improvement in financial
+                                    status.</p>
+                                <p><strong>Zodiac/Planet:</strong> Sagittarius (Dhanusu) & Pisces (Meenam) / Jupiter
+                                    (Guru).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Esanya Lingam -->
+                <div class="lingam-item" id="esanya-lingam" onclick="this.classList.toggle('flipped')" data-lat="12.24511"
+                    data-lng="79.07410">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="lingam-direction">North-East</div>
+                            <div class="lingam-icon"><img src="images/lingams/esanya.png" alt="Esanya Lingam"></div>
+                            <div class="lingam-text">
+                                <h4>Esanya Lingam <span class="distance-badge"></span></h4>
+                                <p>The final lingam, associated with Wisdom.</p>
+                                <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for
+                                    Details</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Esanya+Lingam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Deity: Lord Esanyar</h4>
+                                <p><strong>Significance:</strong> Represents one of the seven Rudras of Shiva. It marks
+                                    the completion of the Girivalam loop.</p>
+                                <p><strong>Benefits:</strong> Wisdom, knowledge, peace of mind, and success in education
+                                    and arts.</p>
+                                <p><strong>Zodiac/Planet:</strong> Gemini (Mithunam) & Virgo (Kanni) / Mercury (Budhan).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skandasramam -->
+                <div class="spot-card" id="skandashramam-spot" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="spot-icon"><img src="images/sacred/skandasramam.png" alt="Skandasramam"></div>
+                            <h4>Skandasramam</h4>
+                            <p>A significant ashram and meditation spot on the path with stunning views.</p>
+                            <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for Details</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Skandashramam+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Skandasramam</h4>
+                                <p><strong>History:</strong> Ramana Maharshi stayed here from 1916 to 1922. His mother
+                                    joined him here, and her liberation (Mukti) occurred in this very spot.</p>
+                                <p><strong>Significance:</strong> Known for its cool mountain spring and powerful
+                                    vibrations for meditation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virupaksha Cave -->
+                <div class="spot-card" id="virupaksha-cave-spot" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="spot-icon"><img src="images/sacred/virupaksha.png" alt="Virupaksha Cave"></div>
+                            <h4>Virupaksha Cave</h4>
+                            <p>An ancient cave where yogis meditated, including Sri Ramana Maharshi.</p>
+                            <span class="lingam-instruction"><i class="fa-solid fa-rotate"></i> Tap for Details</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="lingam-back-content">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Virupaksha+Cave+Tiruvannamalai"
+                                    target="_blank" class="map-link" onclick="event.stopPropagation()">
+                                    <i class="fa-solid fa-location-dot"></i> Directions
+                                </a>
+                                <h4>Virupaksha Cave</h4>
+                                <p><strong>History:</strong> Named after Saint Virupaksha Deva (13th century). Ramana
+                                    Maharshi lived here for 17 years.</p>
+                                <p><strong>Significance:</strong> The cave is shaped like the sacred 'Om'. Highly
+                                    revered for silence and penance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A-Z Guide Section -->
+    <section class="section az-guide-section" style="background-color: var(--bg-white);">
+        <div class="section-header">
+            <span class="subtitle reveal">Complete Glossary</span>
+            <h2 class="reveal">Tiruvannamalai A-Z</h2>
+            <p class="reveal">A comprehensive guide to the spiritual terms and places of the holy town.</p>
+        </div>
+
+        <div class="az-grid reveal-left" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
+            <div class="az-card">
+                <span class="az-letter">A</span>
+                <h4>Annamalaiyar</h4>
+                <p>The presiding deity Lord Shiva, worshipped as the element of fire.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">B</span>
+                <h4>Bharani Deepam</h4>
+                <p>Lit inside the temple at 4 AM on Karthigai Deepam day, symbolizing the One Source.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">C</span>
+                <h4>Chitrai Pournami</h4>
+                <p>A full moon in the month of Chithirai (April/May) highly auspicious for Girivalam.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">D</span>
+                <h4>Deepam</h4>
+                <p>The Great Light. The Karthigai Deepam festival attracts millions to see the flame atop the hill.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">G</span>
+                <h4>Girivalam</h4>
+                <p>Giri (Hill) + Valam (Rounding). The act of circumambulating the holy hill (14km).</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">I</span>
+                <h4>Idai Kattu Siddhar</h4>
+                <p>One of the 18 Siddhars believed to still dwell in spiritual form around the hill.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">K</span>
+                <h4>Karthigai</h4>
+                <p>The Tamil month (Nov-Dec) when the Great Festival takes place.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">L</span>
+                <h4>Lingam</h4>
+                <p>The aniconic representation of Lord Shiva. There are 8 Cardinal Lingams on the path.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">M</span>
+                <h4>Maha Deepam</h4>
+                <p>The huge fire lit at sunset on top of the 2,668ft high mountain during the festival.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">P</span>
+                <h4>Pournami</h4>
+                <p>Full Moon Day. The most powerful time for Girivalam, drawing massive crowds.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">R</span>
+                <h4>Ramana Maharshi</h4>
+                <p>The great sage of Arunachala who revived the path of Self-Inquiry in the 20th century.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">S</span>
+                <h4>Siddhars</h4>
+                <p>Realized saints and mystics, many of whom are believed to reside in the caves of Arunachala.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">T</span>
+                <h4>Thiruvoodal</h4>
+                <p>A festival in Jan/Feb celebrating a divine dispute between Shiva and Parvati.</p>
+            </div>
+            <div class="az-card">
+                <span class="az-letter">V</span>
+                <h4>Virupaksha</h4>
+                <p>An ancient cave and the name of a saint who lived there in the 1300s.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Room Booking Section -->
+    <section class="section booking" id="booking">
+        <div class="section-header">
+            <h2>Book Your Stay</h2>
+            <p>Find the perfect sanctuary for your spiritual journey, from humble ashrams to luxury resorts.</p>
+        </div>
+
+
+            <!-- Featured Stays -->
+            <div class="featured-stays">
+                <!-- Stay 1: Arunachala Ramana Home -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="images/stays/arunachala_home.jpg" alt="Arunachala Ramana Home">
+                        <span class="stay-tag">Boutique</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Arunachala Ramana Home</h4>
+                        <p>Quiet boutique stay with a panoramic view of the holy hill. Perfect for silent retreats.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-wifi" title="Free WiFi"></i>
+                            <i class="fa-solid fa-snowflake" title="Air Conditioning"></i>
+                            <i class="fa-solid fa-mountain" title="Hill View"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.5</span>
+                            <span class="price">₹2,500/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Arunachala+Ramana+Home+70,+Ramana+Nagar,+Thamarai+Nagar,+Tiruvannamalai,+Tamil+Nadu+606603,+India"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 2: Sparsa Resort -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/xol9VzPua4ez1pifJehzvAHO0VdpeJbJDStGDMsmJC0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRpYS5lYXNlbXl0cmlwLmNvbS9tZWRpYS9I/b3RlbC9TSEwtMjAw/MTI0ODE2MDQ3NDgv/Q29tbW9uL0NvbW1v/bm45WnlLTS5qcGc"
+                            alt="Sparsa Resort">
+                        <span class="stay-tag">Luxury/Eco</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Sparsa Resort</h4>
+                        <p>Eco-friendly luxury resort offering wellness programs, pool, and sustainable living.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-person-swimming" title="Pool"></i>
+                            <i class="fa-solid fa-spa" title="Spa"></i>
+                            <i class="fa-solid fa-carrot" title="Organic Food"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.5</span>
+                            <span class="price">₹6,500/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Sparsa+Resort+Tiruvannamalai" target="_blank"
+                            class="map-link">View on Map <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 3: Athena Hotel -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/7I-NUWX-qdxq9TnQJu3GzyezrIw4cQ7j2CNyEiVBNzs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZGlyZWN0aG90ZWxzLmNvbS9pbi90aXJ1/dmFubmFtYWxhaS9h/dGhlbmEtaG90ZWwt/dGlydXZhbm5hbWFs/YWkvNS5qcGc"
+                            alt="Athena Hotel">
+                        <span class="stay-tag">Premium</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Athena Hotel</h4>
+                        <p>Modern 4-star amenities with grand views of Arunachala. Excellent for families.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-utensils" title="Restaurant"></i>
+                            <i class="fa-solid fa-ban-smoking" title="Non-Smoking"></i>
+                            <i class="fa-solid fa-elevator" title="Elevator"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.1</span>
+                            <span class="price">₹4,500/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Athena+Hotel+Tiruvannamalai" target="_blank"
+                            class="map-link">View on Map <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 4: Sterling Arunai Anantha -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/WZrHZfGIUoDnuRmSzOBLjYzwIkQsrbPSLfgHpuQ2gB0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRpYS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDYvY2YvMTAvMTUv/cmFtYW5hLXRvd2Vy/cy5qcGc"
+                            alt="Sterling Arunai Anantha">
+                        <span class="stay-tag">Resort</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Sterling Arunai Anantha</h4>
+                        <p>Premium resort with a direct view of the holy hill. Offers curated spiritual experiences.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-mountain-sun" title="Hill View"></i>
+                            <i class="fa-solid fa-person-hiking" title="Trekking"></i>
+                            <i class="fa-solid fa-martini-glass-empty" title="Lounge"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.3</span>
+                            <span class="price">₹5,500/night</span>
+                        </div>
+                        <a href="https://maps.app.goo.gl/Qp2pdwEZH1yp8tnU7" target="_blank" class="map-link">View on Map
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 5: Ellora Hotel -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/aPeEGX2RDIXclfN-AC0Pm2Xaoj5G74JLqSFOfyrZSbg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL3YyL2Nv/bXAvdGlydXZhbm5h/bWFsYWkvYTYvOTk5/OXA0MTc1LjQxNzUu/MjQxMDA3MTcyNzMy/LnQ5YTYvY2F0YWxv/Z3VlL2VsbG9yYS1o/b3RlbHMtdmVuZ2lr/a2FsLXRpcnV2YW5u/YW1hbGFpLWJhbnF1/ZXQtaGFsbHMtbWNw/ZDFxYXAwYi5qcGc_/dz0zODQwJnE9NzU"
+                            alt="Ellora Hotel">
+                        <span class="stay-tag">Amazing 9.7</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Ellora Hotel</h4>
+                        <p>Located within a 5-minute drive of Pachaiamman Temple. 24-hour front desk & luggage storage.
+                        </p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-clock" title="24h Front Desk"></i>
+                            <i class="fa-solid fa-suitcase" title="Luggage Storage"></i>
+                            <i class="fa-solid fa-utensils" title="Breakfast"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.8</span>
+                            <span class="price">₹4,276/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Ellora+Hotel+Tiruvannamalai+Kanji+-+Tiruvannamalai+Rd,+Tiruvannamalai,+Tamil+Nadu+606604,+India"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 6: Arudra Residency -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/rzJxzE2A8cfXDWyzPkL8JdhVAlaKDZgc_nm9buIjh9w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL3YyL2Nv/bXAvdGlydXZhbm5h/bWFsYWkvYzMvOTk5/OXA0MTc1LjQxNzUu/MjQwOTI1MTMxNjE5/LncxYzMvY2F0YWxv/Z3VlL2FydWRyYS1y/ZXNpZGVuY3ktdGly/dXZhbm5hbWFsYWkt/aG90ZWxzLWx4bDJk/NjljdXcuanBnP3c9/Mzg0MCZxPTc1"
+                            alt="Arudra Residency">
+                        <span class="stay-tag">Very Good 8.4</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Arudra Residency</h4>
+                        <p>Just a 2-minute walk from Arunachaleshvara Temple. Smoke-free hotel with free parking.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-gopuram" title="Near Temple"></i>
+                            <i class="fa-solid fa-square-parking" title="Free Parking"></i>
+                            <i class="fa-solid fa-ban-smoking" title="Smoke-Free"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.2</span>
+                            <span class="price">₹3,325/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Arudra+Residency+No.1,+Thirumanjana+Gopuram+Street,+Tiruvannamalai,+Tamilnadu,+606601"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 7: Namo Residency -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/gsQeRGK9u9uAF8Z3RilfDHI8zyBT6wcNAkdRzuLM8yo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pLWN0LmZsaXhj/YXJ0LmNvbS93XzIw/NDgsZl9hdXRvLHFf/YXV0by9jdC1ob3Rl/bC1pbWFnZXMvcGxh/Y2VzL2hvdGVscy9j/bXMvNDU5NC80NTk0/OTg5L2ltYWdlcy9p/bWFnZV80NTk0OTg5/X2JkNTI4ZDJkLTk5/NjMtNDQ2MS1iYmZm/LThiNGFkM2FkYzI1/Yy5qcGVn"
+                            alt="Namo Residency">
+                        <span class="stay-tag">Outstanding 10.0</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Namo Residency</h4>
+                        <p>Detailed attention to service and comfort. Free Wi-Fi and transport arrangements available.
+                        </p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-wifi" title="Free WiFi"></i>
+                            <i class="fa-solid fa-taxi" title="Transport"></i>
+                            <i class="fa-solid fa-bell-concierge" title="Service"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 5.0</span>
+                            <span class="price">₹3,299/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Namo+Residency+Tiruvannamalai+90,+Thirumanjana+Gopuram+Street,+Pavazhakundur,+Tiruvannamalai,+Tamil+Nadu+606601,+India"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 8: Lingaa's Residency -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/X2RgKyCFajQ6KYgHgq-rve9wPCqxDw0fQ8ZaiRZoLHc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yMWlt/Z2h0bGFrLm1tdGNk/bi5jb20vYTQyNTVh/NTMtYjhiMC00Nzg4/LTkxZjItNDg1ODNh/YTAxYThiLmpwZz8m/b3V0cHV0LXF1YWxp/dHk9NzUmZG93bnNp/emU9NTIwOjM1MCZj/cm9wPTUyMDozNTA7/MiwwJm91dHB1dC1m/b3JtYXQ9anBnJmRv/d25zaXplPTQ4MDoz/MzYmY3JvcD00ODA6/MzM2"
+                            alt="Lingaa's Residency">
+                        <span class="stay-tag">Very Good 8.5</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Lingaa's Residency</h4>
+                        <p>15-minute walk to Temple. Smart TVs and modern amenities in a convenient location.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-tv" title="Smart TV"></i>
+                            <i class="fa-solid fa-square-parking" title="Parking"></i>
+                            <i class="fa-solid fa-location-dot" title="Central"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.3</span>
+                            <span class="price">₹2,269/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Lingaa's+Residency+17/2A,+Erattai+Pillaiyar+Koil+Street,+Thiruvannamalai,+Tamil+Nadu,+606601,+India"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Stay 9: Ramana Towers -->
+                <div class="stay-card">
+                    <div class="stay-image">
+                        <img src="https://imgs.search.brave.com/6hYfMMRdYUGkbfKCsuqeF0xWL0WGy9eGhNLO6gKYpPo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDYvY2YvMTAvMTUv/cmFtYW5hLXRvd2Vy/cy5qcGc"
+                            alt="Ramana Towers">
+                        <span class="stay-tag">Good 7.7</span>
+                    </div>
+                    <div class="stay-content">
+                        <h4>Ramana Towers</h4>
+                        <p>Luxury apartment-style rooms with 1 bedroom. Breakfast included. 2.1km from Temple.</p>
+                        <div class="amenities">
+                            <i class="fa-solid fa-building" title="Apartment"></i>
+                            <i class="fa-solid fa-mug-hot" title="Breakfast"></i>
+                            <i class="fa-solid fa-bed" title="Comfort"></i>
+                        </div>
+                        <div class="stay-meta">
+                            <span><i class="fa-solid fa-star"></i> 4.0</span>
+                            <span class="price">₹2,785/night</span>
+                        </div>
+                        <a href="https://www.google.com/maps/search/Ramana+Towers+10/J/1,+Chengam+Road+4th+Street+Opp.+To+Ramana+Ashram,+TSR+Nagar,+Thiruvanamalai,+Tamil+Nadu,+India,+606603"
+                            target="_blank" class="map-link">View on Map <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Essentials Hub (Replaces Travel, ATM, Emergency) -->
+    <section class="section essentials" id="essentials">
+        <div class="section-header">
+            <span class="subtitle reveal">Convenience & Safety</span>
+            <h2 class="reveal">Pilgrim Essentials Hub</h2>
+            <p class="reveal">Access vital services, financial aid, and emergency contacts in one place.</p>
+            <button id="grant-location-btn" class="btn-location reveal">
+                <i class="fa-solid fa-location-crosshairs"></i> Enable Location for Distances
+            </button>
+        </div>
+
+        <div class="essentials-container reveal">
+            <!-- Tab Navigation -->
+            <div class="tabs-nav">
+                <button class="tab-btn active" data-tab="medical">
+                    <i class="fa-solid fa-notes-medical"></i> Medical & Pharma
+                </button>
+                <button class="tab-btn" data-tab="banking">
+                    <i class="fa-solid fa-building-columns"></i> Banking & Forex
+                </button>
+                <button class="tab-btn" data-tab="transport">
+                    <i class="fa-solid fa-bus-simple"></i> Transport Hubs
+                </button>
+                <button class="tab-btn" data-tab="emergency">
+                    <i class="fa-solid fa-phone-volume"></i> Emergency Help
+                </button>
+                <button class="tab-btn" data-tab="public">
+                    <i class="fa-solid fa-landmark"></i> Public Services
+                </button>
+            </div>
+
+            <!-- Tab Content Areas -->
+            <div class="tabs-content-wrapper">
+
+                <!-- 1. Medical Tab -->
+                <div class="tab-pane active" id="medical">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2320" data-lng="79.0720">
+                            <div class="e-icon medical"><i class="fa-solid fa-prescription-bottle-medical"></i>
+                            </div>
+                            <div class="e-info">
+                                <h3>Apollo Pharmacy <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Reliable pharmacy chain, often open 24/7 or late hours. Located
+                                    near Sannathi Street.</p>
+                                <span class="e-tag"><i class="fa-solid fa-clock"></i> Extended Hours</span>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Apollo+Pharmacy+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2275" data-lng="79.0665">
+                            <div class="e-icon medical"><i class="fa-solid fa-house-medical"></i></div>
+                            <div class="e-info">
+                                <h3>Sri Ramanasramam Dispensary <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Located in TSR Nagar, providing community medical services and
+                                    supplies.</p>
+                                <span class="e-tag"><i class="fa-solid fa-heart"></i> Service</span>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sri+Ramanasramam+Dispensary+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2261" data-lng="79.0661">
+                            <div class="e-icon medical"><i class="fa-solid fa-hospital"></i></div>
+                            <div class="e-info">
+                                <h3>Govt. Medical College Hospital <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Full-facility general hospital for major medical emergencies.</p>
+                                <p class="e-contact"><i class="fa-solid fa-phone"></i> 04175 - 233131</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Government+Medical+College+Hospital"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2270" data-lng="79.0520">
+                            <div class="e-icon medical"><i class="fa-solid fa-user-doctor"></i></div>
+                            <div class="e-info">
+                                <h3>Rangammal Hospital <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Known private hospital providing specialized care and emergency
+                                    services.</p>
+                                <p class="e-contact"><i class="fa-solid fa-phone"></i> 04175 - 257700</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Rangammal+Memorial+Hospital+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Banking Tab -->
+                <div class="tab-pane" id="banking">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2350" data-lng="79.0700">
+                            <div class="e-icon banking"><i class="fa-solid fa-building-columns"></i></div>
+                            <div class="e-info">
+                                <h3>Indian Overseas Bank <span class="distance-badge"></span></h3>
+                                <p class="e-desc"><strong>Main Branch for Pilgrims.</strong> located opposite Sri
+                                    Ramanasramam on Chengam Road.</p>
+                                <span class="e-tag">Near Ashram</span>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Indian+Overseas+Bank+Chengam+Road+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon banking"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                            <div class="e-info">
+                                <h3>Unimoni Forex</h3>
+                                <p class="e-desc">Licensed currency exchange for international travelers. Located at
+                                    Big St, Pavazhakundur.</p>
+                                <span class="e-tag"><i class="fa-solid fa-globe"></i> Forex</span>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Unimoni+Financial+Services+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon banking"><i class="fa-solid fa-credit-card"></i></div>
+                            <div class="e-info">
+                                <h3>SBI & HDFC ATMs</h3>
+                                <p class="e-desc">Multiple ATMs located at Sannathi Street and near the Temple Main
+                                    Entrance.</p>
+                                <span class="e-tag">24/7 Access</span>
+                                <a href="https://www.google.com/maps/search/?api=1&query=ATM+near+Arunachaleswarar+Temple"
+                                    target="_blank" class="map-link">Find Nearest</a>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon banking"><i class="fa-solid fa-building"></i></div>
+                            <div class="e-info">
+                                <h3>ICICI Bank</h3>
+                                <p class="e-desc">Full service branch located on Durgaiyamman Kovil Street.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=ICICI+Bank+Thiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Transport Tab -->
+                <div class="tab-pane" id="transport">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2398" data-lng="79.0735">
+                            <div class="e-icon transport"><i class="fa-solid fa-bus-simple"></i></div>
+                            <div class="e-info">
+                                <h3>Central Bus Stand <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Direct buses to Chennai (4hrs), Bangalore (5hrs), and Pondicherry
+                                    (2.5hrs). Frequent TNSTC & Private buses.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Bus+Stand"
+                                    target="_blank" class="map-link">Open in Maps</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2385" data-lng="79.0777">
+                            <div class="e-icon transport"><i class="fa-solid fa-train-subway"></i></div>
+                            <div class="e-info">
+                                <h3>Railway Station (TNM) <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Connects to Vellore, Villupuram, and Tirupati. Located ~2km from
+                                    the temple.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Railway+Station"
+                                    target="_blank" class="map-link">Open in Maps</a>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon transport"><i class="fa-solid fa-taxi"></i></div>
+                            <div class="e-info">
+                                <h3>Taxi & Auto Stands</h3>
+                                <p class="e-desc">Available at Car Street and Ashram area. Pre-paid taxi counters
+                                    available for long distance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Emergency Tab -->
+                <div class="tab-pane" id="emergency">
+                    <div class="emergency-hero-small">
+                        <div class="e-hero-content">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <div>
+                                <h3>100 / 112</h3>
+                                <p>Police & General Emergency</p>
+                            </div>
+                        </div>
+                        <div class="e-hero-content">
+                            <i class="fa-solid fa-truck-medical"></i>
+                            <div>
+                                <h3>108</h3>
+                                <p>Ambulance Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="essentials-grid">
+                        <div class="essential-card">
+                            <div class="e-icon emergency"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="e-info">
+                                <h3>Town Police Station</h3>
+                                <p class="e-contact"><a href="tel:04175233333">04175 - 233333</a></p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Town+Police+Station"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon emergency"><i class="fa-solid fa-fire-extinguisher"></i></div>
+                            <div class="e-info">
+                                <h3>Fire Station</h3>
+                                <p class="e-contact"><a href="tel:04175232101">04175 - 232101</a></p>
+                            </div>
+                        </div>
+                        <div class="essential-card">
+                            <div class="e-icon emergency"><i class="fa-solid fa-headset"></i></div>
+                            <div class="e-info">
+                                <h3>Tourist Helpline</h3>
+                                <p class="e-contact"><a href="javascript:void(0)" style="cursor: default;">Coming
+                                        Soon</a></p>
+                                <span class="e-tag">24/7 Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Public Services Tab -->
+                <div class="tab-pane" id="public">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2617" data-lng="79.0730">
+                            <div class="e-icon banking"><i class="fa-solid fa-landmark-flag"></i></div>
+                            <div class="e-info">
+                                <h3>District Collectorate <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Administrative headquarters for Tiruvannamalai District. Located
+                                    in Vengikkal on Vellore Road.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+District+Collectorate"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2610" data-lng="79.0725">
+                            <div class="e-icon banking"><i class="fa-solid fa-file-signature"></i></div>
+                            <div class="e-info">
+                                <h3>Taluk Office <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Major government office for land and revenue related services.
+                                    Located near the Collectorate.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Taluk+Office"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2360" data-lng="79.0720">
+                            <div class="e-icon banking"><i class="fa-solid fa-building-shield"></i></div>
+                            <div class="e-info">
+                                <h3>Town Police Station <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Main police station for the town area. For emergencies dial 100.
+                                </p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Tiruvannamalai+Town+Police+Station"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discover More Section (New) -->
+    <section class="section discover-more" id="discover">
+        <div class="section-header">
+            <span class="subtitle reveal">Explore Beyond</span>
+            <h2 class="reveal">Discover Tiruvannamalai</h2>
+            <p class="reveal">Experience the best temples, entertainment, and culinary delights the town has to
+                offer.</p>
+        </div>
+
+        <div class="essentials-container reveal">
+            <!-- Discover Tabs -->
+            <div class="tabs-nav discover-tabs">
+                <button class="tab-btn active" data-tab="temples">
+                    <i class="fa-solid fa-gopuram"></i> Temples & Ashrams
+                </button>
+                <button class="tab-btn" data-tab="entertainment">
+                    <i class="fa-solid fa-film"></i> Entertainment
+                </button>
+                <button class="tab-btn" data-tab="dining">
+                    <i class="fa-solid fa-utensils"></i> Dining
+                </button>
+            </div>
+
+            <div class="tabs-content-wrapper p-content">
+                <!-- Temples Tab -->
+                <div class="tab-pane active" id="temples">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2525" data-lng="79.0397">
+                            <div class="e-icon temple"><i class="fa-solid fa-om"></i></div>
+                            <div class="e-info">
+                                <h3>Adi Annamalai Temple <span class="distance-badge"></span></h3>
+                                <p class="e-desc">The oldest temple in the region, predating the main temple. A
+                                    serene retreat.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Adi+Annamalai+Temple"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2480" data-lng="79.0671">
+                            <div class="e-icon temple"><i class="fa-solid fa-leaf"></i></div>
+                            <div class="e-info">
+                                <h3>Pachaiamman Temple <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Dedicated to Goddess Parvathi, known for its green surroundings
+                                    and peace.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Pachaiamman+Temple+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2237" data-lng="79.0566">
+                            <div class="e-icon temple"><i class="fa-solid fa-person-praying"></i></div>
+                            <div class="e-info">
+                                <h3>Sri Ramanasramam <span class="distance-badge"></span></h3>
+                                <p class="e-desc">The world-renowned ashram of Sage Ramana Maharshi. A center for
+                                    self-enquiry.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sri+Ramanasramam"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2334" data-lng="79.0618">
+                            <div class="e-icon temple"><i class="fa-solid fa-dungeon"></i></div>
+                            <div class="e-info">
+                                <h3>Virupaksha Cave <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Sacred cave on the hill shaped like 'Om', where sages have
+                                    meditated for centuries.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Virupaksha+Cave"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entertainment Tab -->
+                <div class="tab-pane" id="entertainment">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.23235" data-lng="79.07185">
+                            <div class="e-icon entertainment"><i class="fa-solid fa-ticket"></i></div>
+                            <div class="e-info">
+                                <h3>Sakthi Cinemas <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Modern multiplex offering 4K projection and Dolby Atmos sound
+                                    experience.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sakthi+Cinemas+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2260" data-lng="79.0638">
+                            <div class="e-icon entertainment"><i class="fa-solid fa-film"></i></div>
+                            <div class="e-info">
+                                <h3>Sri Balasubramaniar Cinemas <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Famous local theatre with upgraded Laser screens and comfortable
+                                    seating.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sri+Balasubramaniar+Cinemas"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2290" data-lng="79.2847">
+                            <div class="e-icon entertainment"><i class="fa-solid fa-video"></i></div>
+                            <div class="e-info">
+                                <h3>MKG Film Palace <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Premium cinema experience located in Mangalam, short drive from
+                                    town.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=MKG+Film+Palace"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dining Tab -->
+                <div class="tab-pane" id="dining">
+                    <div class="essentials-grid">
+                        <div class="essential-card" data-lat="12.2310" data-lng="79.0750">
+                            <div class="e-icon dining"><i class="fa-solid fa-bowl-rice"></i></div>
+                            <div class="e-info">
+                                <h3>Adyar Ananda Bhavan (A2B) <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Pure vegetarian chain known for high-quality South Indian
+                                    breakfast and meals.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=A2B+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2265" data-lng="79.0510">
+                            <div class="e-icon dining"><i class="fa-solid fa-tree"></i></div>
+                            <div class="e-info">
+                                <h3>The Dreaming Tree <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Popular rooftop cafe serving western vegetarian dishes, salads,
+                                    and coffee.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=The+Dreaming+Tree+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2150" data-lng="79.0450">
+                            <div class="e-icon dining"><i class="fa-solid fa-carrot"></i></div>
+                            <div class="e-info">
+                                <h3>Sparsa Restaurant <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Eco-friendly vegetarian dining in a serene resort setting. Great
+                                    for families.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sparsa+Resort+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                        <div class="essential-card" data-lat="12.2260" data-lng="79.0640">
+                            <div class="e-icon dining"><i class="fa-solid fa-utensils"></i></div>
+                            <div class="e-info">
+                                <h3>Vellalar Mess <span class="distance-badge"></span></h3>
+                                <p class="e-desc">Hidden gem for authentic home-style Tamil meals (Saapadu).</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Vellalar+Mess+Tiruvannamalai"
+                                    target="_blank" class="map-link">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan Visit Section -->
+    <section class="section plan-visit" id="visit">
+        <div class="section-header">
+            <h2>Plan Your Spiritual Journey</h2>
+            <p>Everything you need to know for a peaceful and fulfilling visit to Tiruvannamalai.</p>
+        </div>
+
+        <div class="transport-grid">
+            <div class="transport-card">
+                <i class="fa-solid fa-plane"></i>
+                <h3>By Air</h3>
+                <p>Chennai International Airport (170km) is the nearest major airport. Bangalore Airport is also a
+                    viable option (200km).</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Accommodation</h3>
+                <p>From peaceful ashram guest houses like Sri Ramanasramam to luxury boutique resorts, find the
+                    perfect
+                    stay for your spiritual retreat.</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-van-shuttle"></i>
+                <h3>Local Transport</h3>
+                <p>Auto-rickshaws are plentiful for short trips. For the 14km Girivalam, many pilgrims walk, while
+                    others rent bicycles or electric scooters.</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Food & Dining</h3>
+                <p>Savor authentic South Indian vegetarian meals. Many organic cafes around Ramanasramam serve
+                    international cuisines for global seekers.</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-briefcase-medical"></i>
+                <h3>Health & Safety</h3>
+                <p>Carry basic medicines and sun protection. Several multi-specialty hospitals are available in the
+                    town
+                    center for emergencies.</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-calendar-day"></i>
+                <h3>Ideal Duration</h3>
+                <p>A minimum of 2-3 days is recommended to cover the Temple, Ashram, and the sacred Girivalam
+                    circumambulation.</p>
+            </div>
+            <div class="transport-card">
+                <i class="fa-solid fa-cloud-sun"></i>
+                <h3>Best Time to Visit</h3>
+                <p><strong>Winter (Nov - Feb)</strong> offers pleasant weather (15°C-30°C). <strong>Karthigai
+                        Deepam</strong> (Nov/Dec) is the grandest festival.</p>
+            </div>
+        </div>
+
+        <div class="info-layout">
+            <div class="travel-tips" id="travel-tips">
+                <h3>Expert Travel Tips</h3>
+                <div class="tips-subgrid">
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Start Early:</strong> Begin Girivalam
+                            before dawn (4 AM) to avoid the heat.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Respect Silence:</strong> Maintain
+                            silence
+                            in meditation halls and caves.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Connectivity:</strong> 4G/5G works
+                            well,
+                            but Ashrams often have limited Wi-Fi.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Girivalam Apps:</strong> Use local apps
+                            to
+                            track your distance and landmark stops.</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Monkeys:</strong> Keep food items
+                            inside
+                            bags to avoid attracting curious monkeys.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Shoes:</strong> You must leave shoes
+                            outside temples; carry a light cloth bag for them.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Cash:</strong> Keep some cash handy as
+                            small shops might not accept digital payments.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Dress Code:</strong> Shoulders and
+                            knees
+                            should be covered when entering temples.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Booking Trust Signals -->
+    <div class="booking-trust">
+        <div class="trust-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h4>Secure Booking</h4>
+            <p>Verified properties only</p>
+        </div>
+        <div class="trust-item">
+            <i class="fa-solid fa-handshake-simple"></i>
+            <h4>Best Price Guarantee</h4>
+            <p>No hidden charges</p>
+        </div>
+        <div class="trust-item">
+            <i class="fa-solid fa-headset"></i>
+            <h4>Local Support</h4>
+            <p>24/7 assistance</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Visit Tiruvannamalai. All rights reserved.</p>
+        <p style="margin-top: 10px; font-size: 0.9rem;">Made by Infinite-Tech Team</p>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container">
+        <!-- Chat Window -->
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <div class="chat-bot-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="chat-header-info">
+                    <h3>TVM Guide</h3>
+                    <p>Ask me anything!</p>
+                </div>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Hello! I'm your spiritual assistant. ask me about Lingams, temples, or any place in Tiruvannamalai.
+                </div>
+            </div>
+            <form class="chat-input-area" id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type your question..." autocomplete="off">
+                <button type="submit" class="chat-send-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Toggle Button -->
+        <button class="chat-toggle-btn" id="chat-toggle">
+            <i class="fa-solid fa-comment-dots"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

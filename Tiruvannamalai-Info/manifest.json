@@ -1,0 +1,23 @@
+{
+  "name": "Tiruvannamalai Info",
+  "short_name": "Tiruvannamalai",
+  "description": "A spiritual guide to Tiruvannamalai, featuring temples, girivalam, places to visit, and essential services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfbf7",
+  "theme_color": "#ff6b00",
+  "icons": [
+    {
+      "src": "images/1st.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/2nd.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
