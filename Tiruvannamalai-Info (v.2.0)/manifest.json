@@ -1,0 +1,23 @@
+{
+  "name": "Divine Tiruvannamalai",
+  "short_name": "Tiruvannamalai",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6700",
+  "description": "Your complete spiritual guide to Tiruvannamalai, Girivalam, and Arunachala.",
+  "icons": [
+    {
+      "src": "images/core/icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "images/core/icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
